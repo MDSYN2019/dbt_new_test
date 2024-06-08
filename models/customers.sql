@@ -1,4 +1,15 @@
 
+/*
+Edit models/customers.sql to override the dbt_project.yml for the customers
+only by adding the snippet following this comment
+*/
+
+{{
+ config(
+ materialized='view'
+)
+}}
+
 with customers as (
 
     select
