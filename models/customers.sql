@@ -6,8 +6,8 @@ only by adding the snippet following this comment
 
 {{
  config(
- materialized='view'
-)
+    materialized='view'
+    )
 }}
 
 with customers as (
