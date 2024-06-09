@@ -4,6 +4,7 @@ version: 2
 
 models:
   - name: customers
+    description: One record per customer 
     columns:
       - name: customer_id
         tests:
@@ -11,6 +12,7 @@ models:
           - not_null
 
   - name: stg_customers
+    description: This model cleans up customer data 
     columns:
       - name: customer_id
         tests:
@@ -18,6 +20,7 @@ models:
           - not_null
 
   - name: stg_orders
+    description: This model cleans up order data
     columns:
       - name: order_id
         tests:
