@@ -11,5 +11,5 @@ models:
           - not_null
       - name: first_name
         tests:
-          - unique
+          - not_null
       
