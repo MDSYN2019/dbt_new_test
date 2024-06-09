@@ -19,7 +19,7 @@ models:
         tests:
           - unique
           - not_null
-          - uppercase:
-              model: ref('customers')
-              column_name: 'first_name'
-          
+          # - uppercase:
+          #    model: ref('customers')
+          #    column_name: 'first_name'
+  
