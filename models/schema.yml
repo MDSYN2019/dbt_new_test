@@ -10,6 +10,6 @@ models:
           - unique
           - not_null
       - name: first_name
-          tests:
-            - unique
+        tests:
+          - unique
       
