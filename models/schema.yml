@@ -10,7 +10,10 @@ models:
         tests:
           - unique
           - not_null
-
+      - name: number_of_orders
+        tests:
+          - is_even
+          
   - name: stg_customers
     description: This model cleans up customer data 
     columns:
